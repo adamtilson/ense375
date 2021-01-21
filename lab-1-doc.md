@@ -21,7 +21,7 @@ Unzip somewhere you can find it and have permissions to use.
 
 Optionally, add the `bin` folder to your environment PATH.
 
-Versions: Java is backwards compatible, making it safe to use the newest version. We will only be using core featurs which have been supported since Java 8. 
+Versions: Java is backwards compatible, making it safe to use the newest version. We will only be using core features which have been supported since Java 8. 
 
 If you like IDEs, give [VS Code](https://code.visualstudio.com/) (with [this](https://marketplace.visualstudio.com/items?itemName=redhat.java) and [this](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) extension) or [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/) a try. 
 
@@ -46,7 +46,7 @@ public class HelloWorld {
 ## Breaking it down
 - `public` - Access modifier keyword. 
 - `class` - All Java applications are classes, bundling variables and methods.
-- `HelloWorld` - User specififed name of our class. Must be the same as the Java filename.
+- `HelloWorld` - User-specified name of our class. Must be the same as the Java filename.
 - `public static void main (String[] args)` - The function signature for our "main" function. Code in here will run if you try to run this class as an application.
 - `System.out.println("Hello Java World!");` prints "Hello Java World!" to the console.
 
@@ -244,7 +244,7 @@ In Exercise 2 you will implement polymorphism.
 
 ### Collections
 
-Java provides several ways of grouping objects in a Collection. Collections are homogeones data structures (like Arrays) but with better memory management and traversal options.
+Java provides several ways of grouping objects in a Collection. Collections are homogeneous data structures (like Arrays) but with better memory management and traversal options.
 
 [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
 
@@ -327,7 +327,7 @@ Both of these examples are in the `eg-5` files.
 
 ### Risky Code with Try/Catch
 
-If your Scanner is looking for an integer, and recieves something else, it will throw an error. Using this example, we can see how Try / Catch blocks work in Java for attempting to run risky code, and then gracefully handling errors:
+If your Scanner is looking for an integer, and receives something else, it will throw an error. Using this example, we can see how Try / Catch blocks work in Java for attempting to run risky code, and then gracefully handling errors:
 
 ```java
 import java.util.Scanner;
@@ -357,7 +357,7 @@ This example is in the `eg-6` files.
 
 ## Exercises
 
-These three exercises are not intended to be too challenging, instead intended to get you accustomed to the syntax of Java applied to common problems. If you find you are struggling heavily with these exercises, it is strongly recommended you reach out for help - these are intended to be reasonable for 3rd / 4th year SSE students. No starter code will be provided, to get you used to writing (and thikning about) the Java boilerplate and properly structuring your projects.
+These three exercises are not intended to be too challenging, instead intended to get you accustomed to the syntax of Java applied to common problems. If you find you are struggling heavily with these exercises, it is strongly recommended you reach out for help - these are intended to be reasonable for 3rd / 4th year SSE students. No starter code will be provided, to get you used to writing (and thinking about) the Java boilerplate and properly structuring your projects.
 
 1. Fizz Buzz
 
@@ -399,7 +399,7 @@ Buzz
 
 Objective: To explore Java classes, inheritance and polymorphism
 
-In this exercise, you are going to create stubs for creatures for a tactical role playing game. Each of these monsters must be of a given type (humanoid, familiar, monster or undead) which should be implemented as an appropriate hierarchy of abstract classes which the concrete classes extend. Additionally they should have movement functionality and attack functionality of a given type, which should be represented as appropriate hierarchies of interfaces which the concete classes implement.
+In this exercise, you are going to create stubs for creatures for a tactical role playing game. Each of these monsters must be of a given type (humanoid, familiar, monster or undead) which should be implemented as an appropriate hierarchy of abstract classes which the concrete classes extend. Additionally they should have movement functionality and attack functionality of a given type, which should be represented as appropriate hierarchies of interfaces which the concrete classes implement.
 
 
 | Class             | Creature Type   | Attack Type |   Movement Type
@@ -415,7 +415,7 @@ In this exercise, you are going to create stubs for creatures for a tactical rol
 | Dragon      |  Monster    |  Physical    |    Fly 
 | Cyclops     |  Monster    |  Magical     |    Walk
 
-A completed concrete class should have three functions: type, attack and move, each of which should beinheritted from a parent class, which will print to the console how each of the monsters are.
+A completed concrete class should have three functions: type, attack and move, each of which should be inheritted from a parent class, which will print to the console how each of the monsters are.
 
 Examples:
 ```
