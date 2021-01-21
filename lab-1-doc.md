@@ -559,17 +559,31 @@ Print the list backward:
 
 ## Submission
 
-Upload only your .java files in a zip. Use the following directory structure:
+Please submit your files to URCourses by the due date. Submit in one `.zip` file. Include the java files for the application, and include a `readme.txt` file with the commands for compiling and running your application.
 
-q1/Main.java
-
-q2/Main.java
-
-q2/SupportClass.java
-
+Example directory (zipped):
+```
+a-tilson-sid-ense375-l1.zip
+├── readme.txt
+├── q1/
+│   └── FizzBuzz.java
+├── q2/
+│   ├── Main.java
+│   └── Support.java
+⋮
 etc.
+```
 
-Please submit your files on URCourses by the due date.
+Example commands in `readme.txt`:
+```
+q1:
+javac .\FizzBuzz.java
+java FizzBuzz
+
+q2:
+⋮
+etc.
+```
 
 ---
 
