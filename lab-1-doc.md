@@ -451,9 +451,6 @@ Hints:
 - You should make use of default methods in your interfaces.
 - Your concrete classes should not require any code besides extending an abstract class and implementing interfaces.
 
-
-Create stub classes with the following specifications:
-
 3. Doubly Linked List
 
 Objective: To get used to classes and references in Java
