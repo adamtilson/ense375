@@ -574,7 +574,7 @@ etc.
 Example commands in `readme.txt`:
 ```
 q1:
-javac .\FizzBuzz.java
+javac ./FizzBuzz.java
 java FizzBuzz
 
 q2:
