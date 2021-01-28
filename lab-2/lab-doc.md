@@ -68,7 +68,7 @@ project-name/
 ---
 ## Your First Test
 
-Save your first test in /test/ClassTest.java
+Save your first test in /test/DemoTest.java
 
 ```java
 import org.junit.jupiter.api.Test; //JUnit5
