@@ -105,7 +105,7 @@ The -cp option, which represents class path, shows the place that javac will loo
 
 Let's create a very simple Calculator app, and add a simple test that ensures it is adding correcty...
 
-in `\src\Calculator.java`
+in `/src/Calculator.java`
 ```java
 public class Calculator {
     public int add (int a, int b) {
@@ -113,7 +113,7 @@ public class Calculator {
     }
 }
 ```
-in `\test\CalculatorTest.java`
+in `/test/CalculatorTest.java`
 ```java
 import org.junit.jupiter.api.Test; //JUnit5
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -286,9 +286,9 @@ a-tilson-sid-ense375-l2.zip
 
 Example commands in `readme.txt`:
 ```
-javac -d bin .\src\Burger.java
-javac -d bin .\src\Ingredient.java
-javac -d bin -cp 'bin:junit-platform-console-standalone-1.7.0-all.jar' .\test\BurgerTest.java
+javac -d bin ./src/Burger.java
+javac -d bin ./src/Ingredient.java
+javac -d bin -cp 'bin:junit-platform-console-standalone-1.7.0-all.jar' ./test/BurgerTest.java
 java -jar junit-platform-console-standalone-1.7.0-all.jar -cp bin --scan-class-path
 ```
 ---
