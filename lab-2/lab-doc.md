@@ -22,7 +22,7 @@ Unit Test - A test to validate a unit is working correctly.
 
 - For each unit there are typically many unit tests.
 
-You may constrast this approach with testing a system end-to-end, e.g. including external modules and components like databases. This is called integration testing, and is not what we will be focusing on in this lab.
+You may contrast this approach with testing a system end-to-end, e.g. including external modules and components like databases. This is called integration testing, and is not what we will be focusing on in this lab.
 
 A unit test should be fast and repeatable. A complete set of unit tests should be easy to run, complete and up-to-date. Together these will give you courage to refactor bad code into good code without fear of breaking functionality.
 
@@ -34,7 +34,7 @@ A unit test should be fast and repeatable. A complete set of unit tests should b
 The most recent version of JUnit is JUnit 5, from 2017. It significantly changed the architecture from JUnit 4, breaking it into three components: JUnit Platform, JUnit Jupiter and JUnit Vintage. 
 - JUnit Platform provides an API for writing tests
 - JUnit Jupiter includes tools for running tests
-- Junit Vintage includes tools for supporting legacy tests, eg. Junit 3 and 4.
+- Junit Vintage includes tools for supporting legacy tests, e.g. Junit 3 and 4.
 
 ---
 ## Installing JUnit
@@ -103,7 +103,7 @@ The -cp option, which represents class path, shows the place that javac will loo
 ---
 ## Testing our own code
 
-Let's create a very simple Calculator app, and add a simple test that ensures it is adding correcty...
+Let's create a very simple Calculator app, and add a simple test that ensures it is adding correctly...
 
 in `/src/Calculator.java`
 ```java
@@ -182,7 +182,7 @@ For each of these, we may add an additional String argument at the end which wil
 ---
 ## Testing for Exceptions
 
-Testing for excpetions is easier in JUnit 5 than in JUnit 4, thanks to the assertThrows function, as shown in the following example:
+Testing for exceptions is easier in JUnit 5 than in JUnit 4, thanks to the assertThrows function, as shown in the following example:
 
 In Read.java
 ```java
