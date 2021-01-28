@@ -297,6 +297,8 @@ java -jar junit-platform-console-standalone-1.7.0-all.jar -cp bin --scan-class-p
 
 JUnit5 Documentation, [JUnit Assertions](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html)
 
+S. Bechtold, S. Brannen, J. Link, M. Merdes, M. Philipp, & C. Stein, [JUnit 5 User Guide](https://junit.org/junit5/docs/5.3.0-RC1/user-guide/index.pdf), JUnit.org, 2018
+
 M. Greencroft, [Practical Test-Driven Development for Java Programmers](https://www.lynda.com/Software-Development-tutorials/Practical-Test-Driven-Development-Java-Programmers/777389-2.html), Lynda from LinkedIn, 2018.
 
 R. Osherove, [Naming standards for unit tests](https://osherove.com/blog/2005/4/3/naming-standards-for-unit-tests.html), Agile & XP Consulting and Training, 2005.
