@@ -122,7 +122,7 @@ public class CalculatorTest {
     public void Add_SimpleAddition_ReturnSum() {
         Calculator calculator = new Calculator();
         int result = calculator.add(3, 4);
-        assertEquals(result, 7);
+        assertEquals(7, result); //expected, actual
     }
 }
 ```
