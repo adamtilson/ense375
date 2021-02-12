@@ -299,7 +299,7 @@ My suggestion is to add Javadocs only when you cannot write code which is self-d
 
 ## Integration Testing
 
-While we do not typically test other libraries that we are using, we may want to write tests to ensure that we are using them properly. This is a competent integration test, which is somewhere between unit tests and system integration tests.
+While we do not typically test other libraries that we are using, we may want to write tests to ensure that we are using them properly. This is a component integration test, which is somewhere between unit tests and system integration tests.
 
 ## Assignment
 
