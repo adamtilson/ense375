@@ -656,7 +656,7 @@ Create and complete an User Acceptance Testing matrix, similar to the one shown 
 
 ## Submission
 
-Please submit your assignment to URCourses by the due date.
+Please submit your assignment to URCourses by the due date. Please include your test matrix as a markdown table, or as a pdf. For dart, please only include your `.dart` files, e.g. main.dart and bmi.dart.
 
 ---
 
