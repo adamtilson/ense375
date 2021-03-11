@@ -340,6 +340,12 @@ Let's box in our mockup to see how we will need to create it with containers...
 
 ![bmi mockup containers](res/bmi-mockup-containers.png)
 
+We can represent this UI as a tree...
+
+![ui tree](res/ui-tree.png)
+
+To implement this tree, we essentially create our widgets by an inorder traversal.
+
 Next we want to create a container...
 
 <details>
