@@ -146,6 +146,28 @@ I'd add:
 
 [Official Flutter / Dart docs](https://flutter.dev/docs).
 
+### Null Safety
+
+** Important ** Dart recently added explicit null safety, which has changed the syntax on some components. This new syntax will work on DartPad, where the newest version of dart is running, but not on Flutter, which is still using an older build.
+
+[You can read about it here](https://dart.dev/null-safety)
+
+The important take away, if you see structures like:
+```
+      onChanged: (String? newValue) {
+        setState(() {
+          dropdownValue = newValue!;
+        });
+```
+In the current version of flutter this would be written as:
+
+```
+      onChanged: (String newValue) {
+        setState(() {
+          dropdownValue = newValue;
+        });
+```
+
 ## A simple App
 
 For the pre-lab, we are going to create a BMI Calculator, which will be expanded for the assignment.
