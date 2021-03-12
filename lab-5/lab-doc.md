@@ -483,7 +483,7 @@ And add another TextField, with an appropriate controller:
               controller: _weightController,
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
-                labelText: 'height in cm',
+                labelText: 'weight in kg',
               ),
             ),
 ```
@@ -546,11 +546,8 @@ class _BMIState extends State<BMI> {
               onPressed: calculateBMI,
             ),
             SizedBox(height: 50),
-            TextField(
-              decoration: InputDecoration(
-                border: InputBorder.none,
-                hintText: 'Result'
-              ),
+            Text(
+              'Result'
             ),
             Text(
               _result == null ? "Enter Value" : "${_result.toStringAsFixed(2)}",
@@ -582,12 +579,13 @@ This is a class function so we will include it in the class:
 
 ```dart
   void calculateBMI() {
-    double height = double.parse(_heightController.text) / 100;
-    double weight = double.parse(_weightController.text);
+    double heightInCM = double.parse(_heightController.text);
+    double weightInKg = double.parse(_weightController.text);
 
-    double heightSquare = height * height;
-    double result = weight / heightSquare;
-    _result = result;
+    double heightInM = heightInCM / 100;
+
+    double heightSquared = heightInM * heightInM;
+    _result = weightInKg / heightSquared;
     setState(() {});
   }
 ```
